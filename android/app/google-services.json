@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "561988328115",
+    "project_id": "dordam-12c7a",
+    "storage_bucket": "dordam-12c7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561988328115:android:4d3344920c8e9e383aaec6",
+        "android_client_info": {
+          "package_name": "com.example.dordam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561988328115-1au3adt87s4s04g5oru7ht8ccgidev7i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dordam",
+            "certificate_hash": "94b4e5aa2c0de9c89089b1632aae9587d61a2c46"
+          }
+        },
+        {
+          "client_id": "561988328115-rck04lvedu0fl8v7f6sndcuuhitvpht9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKCwrGisyXWuI50AyVhyO9bo9FleffwZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561988328115-rck04lvedu0fl8v7f6sndcuuhitvpht9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
