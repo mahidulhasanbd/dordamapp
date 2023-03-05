@@ -4,6 +4,7 @@
 import 'package:flutter/material.dart';
 import 'package:dordam/admin/signin.dart';
 
+import '../detector_screens/home.dart';
 import '../screens/places_screen.dart';
 import '../utils/color_utils.dart';
 
@@ -57,6 +58,12 @@ class _HomeScreenState extends State<HomeScreen> {
           child: Text("Google Map"),
           onPressed: () {
             Navigator.push(context, MaterialPageRoute(builder: (context) => const PlacesScreen()));
+          },
+          ),
+                       ElevatedButton(
+          child: Text("MLkit Home Page"),
+          onPressed: () {
+            Navigator.push(context, MaterialPageRoute(builder: (context) => HomePage()));
           },
           ),
            ],

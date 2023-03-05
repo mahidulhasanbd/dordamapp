@@ -1,9 +1,16 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:dordam/admin/signin.dart';
+//import for detector_screens
+import 'package:camera/camera.dart';
+import 'package:dordam/detector_screens/home.dart';
+
+late List<CameraDescription> cameras;
 
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
+  //code for detector
+  cameras = await availableCameras();
   await Firebase.initializeApp();
   runApp(const MyApp());
 }
